@@ -6,9 +6,24 @@ import Contact from './Components/Contact'
 import AboutMe from './Components/AboutMe'
 import MyProjects from './Components/MyProjects'
 import LandingPage from './Components/LandingPage'
+import { createGlobalStyle } from 'styled-components'
+import styled from 'styled-components'
+
+const GlobalStyle = createGlobalStyle`
+body, h1, nav, a {
+  margin: 0;
+  padding: 0;
+}
+`;
+
+const MainContent = styled.div`
+  padding-bottom: 100px
+  `;
 
 function App() {
   return (
+    <div>
+    
     <Router>
       <Routes>
         <Route path="/" element={<LandingPage />} />
@@ -19,6 +34,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
+    </div>
   );
 }
 
