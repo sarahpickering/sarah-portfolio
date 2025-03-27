@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { SectionContainer } from '../Components/Styles/globalStyle';
+import { SectionContainer } from '../Styles/globalStyle';
 
 
 const EntireContainer = styled.div`
