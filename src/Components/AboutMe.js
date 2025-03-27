@@ -1,7 +1,19 @@
-import React from 'react'
+import React from 'react';
+import styled from 'styled-components';
+import { SectionContainer } from '../Components/Styles/globalStyle';
 
-const AboutMe = () => {
-    return (
+
+const EntireContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #0b0b0d;
+  padding: 10px;
+`;
+
+const AboutMe = () => (
+    <SectionContainer>
+        <EntireContainer id="about">
         <p>Welcome! My name is Sarah Pickering and 
         I am a software engineer based in Surprise, AZ. 
         I'm a nerdy mom and real estate agent who has a 
@@ -9,9 +21,10 @@ const AboutMe = () => {
         and creating. Outside of work, I love spending time 
         with my husband and two kids (Madelyn and Maximus). 
         I love reading, and if I have a book in front of me, 
-        it's probably a thriller or mystery. When I'm not working,
-        with my family, or reading, I spend my time at the gym. </p>
+        it's probably a thriller or mystery. I also enjoy working out, 
+        specifically on my Peloton bike! </p>
+        </EntireContainer>
+    </SectionContainer>
     )
-}
 
 export default AboutMe
