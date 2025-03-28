@@ -5,7 +5,7 @@ export const SectionContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #0D7377, #14FFEC);
+  background: linear-gradient(135deg,rgb(218,165,32),rgb(160, 128, 13));
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 40px;
   border-radius: 30px;
@@ -27,7 +27,7 @@ export const SectionContainer = styled.div`
 
 export const SectionTitle = styled.h2`
   font-size: 2.5rem;
-  color: #212121;
+  color:rgb(249, 244, 244);
   @media (max-width: 768px) { font-size: 2rem; }
   @media (max-width: 480px) { font-size: 1.5rem; }
 `;
@@ -35,7 +35,7 @@ export const SectionTitle = styled.h2`
 export const SectionText = styled.div`
   p {
     font-size: 1.2rem;
-    color: #323232;
+    color:rgb(249, 242, 242);
     @media (max-width: 768px) { font-size: 1.1rem; }
     @media (max-width: 480px) { font-size: 1rem; }
   }

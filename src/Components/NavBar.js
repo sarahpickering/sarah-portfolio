@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import { SectionContainer, SectionTitle, SectionText } from './Styles/globalStyle';
 
 // Styled Components for Navbar
 const Nav = styled.nav`

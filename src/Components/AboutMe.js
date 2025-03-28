@@ -1,13 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
-import { SectionContainer } from '../Styles/globalStyle';
+import { SectionContainer, SectionTitle, SectionText } from './Styles/globalStyle';
 
 
 const EntireContainer = styled.div`
   display: flex;
   justify-content: center;
   gap: 20px;
-  background-color: #0b0b0d;
+  background-color:rgb(247, 247, 251);
   padding: 10px;
 `;
 
