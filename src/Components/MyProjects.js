@@ -4,7 +4,7 @@ import { SectionContainer, SectionTitle, SectionText } from './Styles/globalStyl
 
 const MyProjects = () => {
     return (
-        <p>Check out my projects!</p>
+        <h>My Favorite Projects:</h>
     )
 }
 
