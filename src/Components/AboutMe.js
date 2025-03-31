@@ -11,7 +11,7 @@ const EntireContainer = styled.div`
   width: 100%;
 `;
 
-const ProfilePicture = styled.img`
+const MyPicture = styled.img`
   border-radius: 5%;
   border: 4px solid #2B2B28;
   width: 200px;
@@ -33,7 +33,7 @@ const AboutMe = () => (
     <SectionContainer>
         <EntireContainer id="about">
         <h1>Welcome, I'm Sarah!</h1>
-        <ProfilePicture src ={profilePic} alt="logo" />
+        <MyPicture src ={profilePic} alt="logo" />
         <p>My name is Sarah Pickering and 
         I am a software engineer based in Surprise, AZ. 
         I'm a nerdy mom and real estate agent who has a 

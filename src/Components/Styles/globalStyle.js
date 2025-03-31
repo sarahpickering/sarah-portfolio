@@ -9,7 +9,7 @@ export const SectionContainer = styled.div`
   background-color:rgb(248, 245, 245);
   background: linear-gradient(135deg,#c4a87c,rgb(241, 214, 171));
   box-shadow: 0 4px 6px rgba(108, 6, 99, 0.1);
-  box-border: rgb(43, 43, 40)
+  border: rgb(43, 43, 40);
   padding: 40px;
   border-radius: 30px;
   margin: 30px 0px;
