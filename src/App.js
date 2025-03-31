@@ -30,24 +30,16 @@ const MainContent = styled.div`
 
 function App() {
   return (
-    <>
-      <GlobalStyle /> {/* Apply global styles */}
-
-      <Router>
-        {/* Header and NavBar should only be rendered once here */}
-        <Header /> 
-        <NavBar /> 
-
-        <MainContent>
-          <Routes>
-            <Route path="/" element={<LandingPage />} />
-            <Route path="/about" element={<AboutMe />} />
-            <Route path="/projects" element={<MyProjects />} />
-            <Route path="/contact" element={<Contact />} />
-          </Routes>
-        </MainContent>
-      </Router>
-    </>
+          <div>
+            <GlobalStyle />
+            <Header /> 
+            <MainContent>
+            <LandingPage />
+              <AboutMe />
+              <MyProjects />
+              <Contact />
+            </MainContent>
+          </div>
   );
 }
 
