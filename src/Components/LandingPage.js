@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './Header'
 import AboutMe from './AboutMe';
 import MyProjects from './MyProjects';
-import Contact from './Contact';
+import Footer from './Footer'
 import styled from 'styled-components';
 import { SectionContainer, SectionTitle, SectionText } from './Styles/globalStyle';
 

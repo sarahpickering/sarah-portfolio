@@ -2,10 +2,10 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './Components/Header';
 import NavBar from './Components/NavBar';
-import Contact from './Components/Contact';
 import AboutMe from './Components/AboutMe';
 import MyProjects from './Components/MyProjects';
 import LandingPage from './Components/LandingPage';
+import Footer from './Components/Footer';
 import { createGlobalStyle } from 'styled-components';
 import styled from 'styled-components';
 
@@ -30,16 +30,17 @@ const MainContent = styled.div`
 
 function App() {
   return (
-          <div>
+    <Router>
             <GlobalStyle />
             <Header /> 
             <MainContent>
             <LandingPage />
+              <NavBar />
               <AboutMe />
-              <MyProjects />
-              <Contact />
+              <MyProjects /> <br></br>
+              <Footer />
             </MainContent>
-          </div>
+      </Router>
   );
 }
 
