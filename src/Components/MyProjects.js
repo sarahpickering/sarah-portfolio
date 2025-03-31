@@ -9,7 +9,12 @@ const projects = [
         Bloomtech was exciting and challenging. It reinforced my understanding of 
         JavaScript logic and CSS styling while giving me hands-on 
         experience with interactive user interfaces.` },
-   // { name: "Project 2", url: "https://github.com/yourusername/project2" }
+    { name: "Building Web APIs", 
+        url: "https://github.com/sarahpickering/web-sprint-challenge-build-a-web-api",
+        description: `Learning APIs quickly became one of my favorite areas of study. 
+        I found the process of connecting and interacting with data both fascinating 
+        and highly rewarding. While challenging at times, it has significantly expanded 
+        my technical skills and deepened my understanding of web development.` }
 ];
 
 const StyledLink = styled.a`
