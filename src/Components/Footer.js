@@ -6,7 +6,6 @@ const FooterContainer = styled.footer`
   color: #323232; // Secondary text color
   padding: 20px 0;
   text-align: center;
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -43,7 +42,7 @@ const Footer = () => (
   <FooterContainer>
     <FooterText>&copy; {new Date().getFullYear()} Sarah Pickering. All Rights Reserved.</FooterText>
     <SocialLinksContainer>
-      <SocialLink href="mailto:SarahPSellsAZ@Gmail.com" aria-label="Email">Email</SocialLink>
+      <SocialLink href="mailto:SarahPWebDev@Gmail.com" aria-label="Email">Email</SocialLink>
       <SocialLink href="https://www.linkedin.com/in/sarah-pickering-3b454748/" aria-label="LinkedIn">LinkedIn</SocialLink>
       <SocialLink href="https://github.com/sarahpickering" aria-label="GitHub">GitHub</SocialLink>
     </SocialLinksContainer>

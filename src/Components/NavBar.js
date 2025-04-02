@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import { SectionContainer, SectionTitle, SectionText } from './Styles/globalStyle';
+import { SectionContainer, SectionTitle, SectionText, SectionLink } from './Styles/globalStyle';
 
 // Styled Components for Navbar
 const Nav = styled.nav`
@@ -10,6 +10,8 @@ const Nav = styled.nav`
   gap: 20px; /* Space between links */
   background-color: #0b0b0d;
   padding: 10px;
+  color: white;
+  text-decoration: none;
 `;
 
 const NavLink = styled(Link)`
@@ -24,11 +26,12 @@ const NavLink = styled(Link)`
   }
 `;
 
+
 const NavBar = () => {
   return (
     <Nav>
       <NavLink to="/">Home</NavLink>
-      <NavLink to="/projects">My Projects</NavLink>
+      <NavLink to="/projects">My Work</NavLink>
       <NavLink to="/contact">Contact Me</NavLink>
     </Nav>
   );

@@ -45,3 +45,12 @@ export const SectionText = styled.div`
     @media (max-width: 480px) { font-size: 1rem; }
   }
 `;
+
+// export const SectionLink = styled.nav`
+// a {
+//   color: white;
+//   text-decoration: none;
+
+// }
+// ` 
+  
